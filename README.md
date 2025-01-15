@@ -27,7 +27,7 @@ Se ha utilizado Node.js para levantarlo, haciendo uso de modulos como Sequelize 
     npm install
     ```
 
-*OPCIONAL: Si encuentra vulnerabilidades  te pide hacer un audit, sigue las instrucciones que te entrega npm por la consola.
+3. OPCIONAL: Si encuentra vulnerabilidades  te pide hacer un audit, sigue las instrucciones que te entrega npm por la consola.
 
     ```bash
     npm audit
@@ -37,7 +37,7 @@ Se ha utilizado Node.js para levantarlo, haciendo uso de modulos como Sequelize 
     npm audit fix
     ```
 
-3. Crea el archivo .env y reemplaza la informacion con los datos de tu proyecto
+4. Crea el archivo .env y reemplaza la informacion con los datos de tu proyecto
 
     ```.env
     DB_HOST=localhost
@@ -47,11 +47,11 @@ Se ha utilizado Node.js para levantarlo, haciendo uso de modulos como Sequelize 
     DB_NAME=nombre_base_de_datos
     ```
 
-4. Crea la base de datos en PgAdmin con el nombre "db_bootcamp". Se recomienda que tu usuario sea al Admin, en caso de PgAdmin 4 sería "postgres"
+5. Crea la base de datos en PgAdmin con el nombre "db_bootcamp". Se recomienda que tu usuario sea al Admin, en caso de PgAdmin 4 sería "postgres"
      
-5. Asegurate de que los datos ingresados en .env concuerden con los definidos cuando creaste la base de datos.
+6. Asegurate de que los datos ingresados en .env concuerden con los definidos cuando creaste la base de datos.
 
-6. Inicializa el servidor para correr el CRUD completo.
+7. Inicializa el servidor para correr el CRUD completo.
 
     ```node
     node server.js
