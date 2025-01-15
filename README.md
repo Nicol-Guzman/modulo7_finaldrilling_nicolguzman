@@ -1,13 +1,16 @@
 # Final Drilling Project
 
-Este es un proyecto final del módulo 7, que utiliza Node.js con Sequelize y PostgreSQL como base de datos. El objetivo es desarrollar una API para gestionar datos en una base de datos PostgreSQL utilizando el ORM Sequelize.
+Evaluacion final del Modulo 7.
+
+Se ha utilizado Node.js haciendo uso de modulos como Sequelize y PostgreSQL como base de datos.
 
 ## Requisitos
 
 - Node.js (versión 16 o superior)
 - PostgreSQL (una base de datos local o remota)
 - Sequelize ORM
-- Archivo `.env` para la configuración de variables de entorno
+- Pg
+- .env
 
 ## Instalación
 
