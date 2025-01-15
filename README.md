@@ -1,13 +1,13 @@
 # Final Drilling Project
 
-Evaluacion final del Modulo 7.
+Evaluacion Final del Modulo 7 para el bootcamp "Fullstack Javascript Trainee" impartido por Edutecno.
 
-Se ha utilizado Node.js haciendo uso de modulos como Sequelize y PostgreSQL como base de datos.
+Se ha utilizado Node.js para levantarlo, haciendo uso de modulos como Sequelize y PG para utilizar PostgreSQL como base de datos.
 
 ## Requisitos
 
 - Node.js (versión 16 o superior)
-- PostgreSQL (una base de datos local o remota)
+- PostgreSQL (PgAdmin 4)
 - Sequelize ORM
 - Pg
 - .env
@@ -27,9 +27,17 @@ Se ha utilizado Node.js haciendo uso de modulos como Sequelize y PostgreSQL como
     npm install
     ```
 
-*Si la consola te pide hacer audit, realiza los pasos que te indica antes de seguir.
+*OPCIONAL: Si encuentra vulnerabilidades  te pide hacer un audit, sigue las instrucciones que te entrega npm por la consola.
 
-3. Crea el archivo .env
+    ```bash
+    npm audit
+    ```
+
+    ```bash
+    npm audit fix
+    ```
+
+3. Crea el archivo .env y reemplaza la informacion con los datos de tu proyecto
 
     ```.env
     DB_HOST=localhost
@@ -39,11 +47,11 @@ Se ha utilizado Node.js haciendo uso de modulos como Sequelize y PostgreSQL como
     DB_NAME=nombre_base_de_datos
     ```
 
-4. Crea la base de datos en PgAdmin con el nombre "db_bootcamp"
-    
-5. Asegurate de que los ingresados en .env concuerden con los definidos cuando creaste la base de datos.
+4. Crea la base de datos en PgAdmin con el nombre "db_bootcamp". Se recomienda que tu usuario sea al Admin, en caso de PgAdmin 4 sería "postgres"
+     
+5. Asegurate de que los datos ingresados en .env concuerden con los definidos cuando creaste la base de datos.
 
-6. Inicializa el servidor para correr el CRUD
+6. Inicializa el servidor para correr el CRUD completo.
 
     ```node
     node server.js
