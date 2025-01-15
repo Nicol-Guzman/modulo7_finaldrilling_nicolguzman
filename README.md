@@ -15,12 +15,14 @@ Este es un proyecto final del módulo 7, que utiliza Node.js con Sequelize y Pos
 
    ```bash
    git clone https://github.com/Nicol-Guzman/modulo7_finaldrilling_nicolguzman.git
-   cd modulo7_finaldrilling_nicolguzman```
+   cd modulo7_finaldrilling_nicolguzman
+   ```
 
 2. Instala las dependencias del proyecto
     
     ```bash
-    npm install```
+    npm install
+    ```
 
 *Si la consola te pide hacer audit, realiza los pasos que te indica antes de seguir.
 
@@ -31,7 +33,8 @@ Este es un proyecto final del módulo 7, que utiliza Node.js con Sequelize y Pos
     DB_PORT=5432
     DB_USER=tu_usuario
     DB_PASSWORD=tu_contraseña
-    DB_NAME=nombre_base_de_datos```
+    DB_NAME=nombre_base_de_datos
+    ```
 
 4. Crea la base de datos en PgAdmin con el nombre "db_bootcamp"
     
@@ -40,4 +43,5 @@ Este es un proyecto final del módulo 7, que utiliza Node.js con Sequelize y Pos
 6. Inicializa el servidor para correr el CRUD
 
     ```node
-    node server.js```
+    node server.js
+    ```
